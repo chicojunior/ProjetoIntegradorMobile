@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unifor.junior.uniforpin.CadastroMedicoActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cadastro de Médicos"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="43dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:text="Endereço"
+        android:layout_below="@+id/editText8"
+        android:layout_alignLeft="@+id/editText8"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_alignRight="@+id/editText8"
+        android:layout_alignEnd="@+id/editText8" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText10"
+        android:text="Plano"
+        android:layout_below="@+id/editText9"
+        android:layout_alignLeft="@+id/editText9"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_alignRight="@+id/editText9"
+        android:layout_alignEnd="@+id/editText9" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:text="Data de Nascimento"
+        android:ems="10"
+        android:id="@+id/editText11"
+        android:layout_below="@+id/editText10"
+        android:layout_alignLeft="@+id/editText10"
+        android:layout_alignStart="@+id/editText10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:id="@+id/button10"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/editText11"
+        android:layout_alignLeft="@+id/editText11"
+        android:layout_alignStart="@+id/editText11" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:id="@+id/button11"
+        android:layout_alignTop="@+id/button10"
+        android:layout_toRightOf="@+id/button10"
+        android:layout_toEndOf="@+id/button10" />
+
+</RelativeLayout>
